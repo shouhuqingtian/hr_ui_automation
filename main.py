@@ -1,7 +1,9 @@
 from openpyxl import load_workbook, Workbook
 import requests
+from selenium import webdriver
 
 
+r'''
 def update_excel_results(file_path=None):
     # 读取excel
     wb = load_workbook(r'C:\Users\liu51\Desktop\Test\00 资料\9_python自动化\testcase_api_wuye.xlsx')
@@ -54,3 +56,11 @@ def send_request(method, url, data):
     # 测试
 
 update_excel_results()
+'''
+
+driver = webdriver.Chrome()
+driver.get("http://www.baidu.com")
+
+
+
+
