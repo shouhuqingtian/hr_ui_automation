@@ -5,6 +5,10 @@
 # @File    : test01.py
 import time
 
+import faker
+
+
+'''
 str1 = 'hello'
 
 
@@ -87,4 +91,22 @@ with open(file='TestFile.txt', mode='w') as f:
 # button = tkinter.Button(frame, text="Exit", command=tk.destroy)
 # button.pack(side=BOTTOM)
 # tk.mainloop()
+'''
+from faker import Faker
+
+
+fake = Faker()
+print(fake.name())        # 随机生成姓名
+print(fake.address())     # 随机生成地址
+print(fake.email())       # 随机生成电子邮件地址
+print(fake.phone_number())# 随机生成电话号码
+print(fake.date())        # 随机生成日期
+print(fake.ipv4())        # 随机生成 IPv4 地址
+print(fake.company())     # 随机生成公司名称
+print(fake.job())         # 随机生成职业
+print(fake.text())        # 随机生成短文本
+print(fake.ssn())     # 随机生成社会保障号
+
+print(len(fake.__dir__()))
+fake.name()
 
