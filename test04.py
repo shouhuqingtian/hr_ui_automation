@@ -1,15 +1,19 @@
+import os
+import time
+import pyautogui
+import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
-import time
-import requests
-import pandas as pd
-import os
+from pywinauto import Application
 
 # 启动 Firefox 浏览器
 driver_path = r"C:\Users\liu51\Documents\PycharmProjects\web-ui-main\driver\windos\geckodriver.exe"  # 替换为实际的 geckodriver 路径
 firefox_options = Options()
 driver = webdriver.Firefox(executable_path=driver_path, options=firefox_options)
+
+# 最大化窗口
+driver.maximize_window()
 
 # 访问页面并登录
 url = "http://airnavx.hnatechnic.com/airnavx/document/680101_SGML_C/toc?itemId=680101_SGML_C_EN11210701001&parentId=680101_SGML_C_EN11210701&itemType=SHEET&wc=actype:A330;customization:CHH;doctype:IPC"
@@ -22,7 +26,6 @@ time.sleep(3)  # 等待加载
 if not os.path.exists("images"):
     os.makedirs("images")
 
-
 # 保存页面的SVG图像和表格信息
 def save_page_content():
     # 下载所有的SVG图片
@@ -34,19 +37,6 @@ def save_page_content():
         response = requests.get(full_url)
         with open(file_name, "wb") as f:
             f.write(response.content)
-
-    # 保存页面表格信息到 Excel 文件
-    table_data = []
-    rows = driver.find_elements(By.XPATH, "//table//tr")
-    for row in rows:
-        cols = [col.text for col in row.find_elements(By.TAG_NAME, "td")]
-        if cols:
-            table_data.append(cols)
-    df = pd.DataFrame(table_data)
-    excel_file = f"page_data_{int(time.time())}.xlsx"
-    df.to_excel(excel_file, index=False)
-    print(f"页面信息已保存到 {excel_file}")
-
 
 # 递归函数：跳过指定文本并逐级展开节点
 def expand_and_collect_text(element):
@@ -77,12 +67,22 @@ def expand_and_collect_text(element):
                 print_button.click()
                 time.sleep(3)
 
+                # 使用 pyautogui 进行 PDF 保存操作
+                # 打开系统打印窗口后，模拟键盘操作以选择 "保存为 PDF" 并保存文件
+                time.sleep(2)  # 等待系统打印窗口打开
+                pyautogui.hotkey('ctrl', 's')  # 打开打印选项（视系统配置可能需要手动调整）
+                time.sleep(2)  # 等待打印窗口响应
+                pyautogui.press('enter')  # 确认“保存为网页”
+                time.sleep(2)
+                pyautogui.typewrite(f"saved_page_{int(time.time())}.pdf")  # 输入保存文件名
+                time.sleep(2)
+                pyautogui.press('enter', presses=2)  # 确认保存
+
+
                 # 保存页面内容（图片和表格）
                 save_page_content()
 
-                # 关闭当前选项卡
-                driver.close()
-                # 切换回原始选项卡
+                # 切换回原始标签页
                 driver.switch_to.window(driver.window_handles[0])
                 time.sleep(2)
             except Exception as e:
@@ -101,7 +101,6 @@ def expand_and_collect_text(element):
 
     except Exception as e:
         print("Error:", e)
-
 
 # 定位根节点并递归展开
 root_items = driver.find_elements(By.XPATH, "//ul[@class='leftpadding ng-scope']/li")

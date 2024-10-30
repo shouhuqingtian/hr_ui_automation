@@ -432,3 +432,1438 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://a
 JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
 1730197622663	Marionette	INFO	Stopped listening on port 54148
 Dynamically enable window occlusion 1
+1730252103040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.dbqMqZwOfZZo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730252103528	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730252103653	Marionette	INFO	Listening on port 63129
+1730252103681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730252133664	Marionette	INFO	Stopped listening on port 63129
+Dynamically enable window occlusion 1
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/backup-common-passwords-list getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730253182207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.V0Sp9Os6qcwf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730253182716	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730253182866	Marionette	INFO	Listening on port 52328
+1730253182889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730253211397	Marionette	INFO	Stopped listening on port 52328
+Dynamically enable window occlusion 1
+1730253793174	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.xPyHy8K1qVqg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730253793646	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730253793763	Marionette	INFO	Listening on port 53924
+1730253793788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730253830326	Marionette	INFO	Stopped listening on port 53924
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  security-state/cert-revocations Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":22,"lineNumber":1088,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20|
+  - prototype Object
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.error: ({details:{id:"eae22ba6-631d-fcab-fa53-8a7c5adb39a9", last_modified:1730235428941, bucket:"security-state", collection:"cert-revocations", host:"firefox.settings.services.mozilla.com"}})
+1730254307163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.RoI3zy7gA9ri"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730254307645	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730254307767	Marionette	INFO	Listening on port 54385
+1730254307792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730254342592	Marionette	INFO	Stopped listening on port 54385
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":726,"columnNumber":26,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26|
+  - prototype Object
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.error: ({details:{id:"92c52502-9661-6d8b-9389-f2732f6f5caf", last_modified:1710333238310, bucket:"main", collection:"search-config-overrides-v2", host:"firefox.settings.services.mozilla.com"}})
+1730254367646	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.L6OxsDbIPV5e"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730254368110	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730254368223	Marionette	INFO	Listening on port 57521
+1730254368246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730254402910	Marionette	INFO	Stopped listening on port 57521
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/fxmonitor-breaches getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730254528419	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.6exqlFGcJhOd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730254528830	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730254528952	Marionette	INFO	Listening on port 57752
+1730254528977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730254563103	Marionette	INFO	Stopped listening on port 57752
+Dynamically enable window occlusion 1
+1730254584446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.DAWm71ZRAUVA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730254584870	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730254584989	Marionette	INFO	Listening on port 57925
+1730254585013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730254619393	Marionette	INFO	Stopped listening on port 57925
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/websites-with-shared-credential-backends getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730254634871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.wvzQfIVlFRQy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730254635287	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730254635410	Marionette	INFO	Listening on port 58176
+1730254635434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730254670137	Marionette	INFO	Stopped listening on port 58176
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":22,"lineNumber":1088,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20|
+  - prototype Object
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.error: ({details:{id:"e80aaa02-f8ae-a788-8426-059a8c4fcd2e", last_modified:1688747728721, bucket:"main", collection:"addons-manager-settings", host:"firefox.settings.services.mozilla.com"}})
+1730254823703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.nzNJnoNl4HUu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730254824105	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730254824242	Marionette	INFO	Listening on port 58547
+1730254824271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730254859915	Marionette	INFO	Stopped listening on port 58547
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":22,"lineNumber":1088,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":15,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/partitioning-exempt-urls getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730255027290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.RTEIRwdqryto"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730255027746	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730255027880	Marionette	INFO	Listening on port 59032
+1730255027905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730255062389	Marionette	INFO	Stopped listening on port 59032
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/translations-identification-models getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730255265878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.nqGPKPlDZhOy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730255266328	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730255266446	Marionette	INFO	Listening on port 59610
+1730255266470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730255301784	Marionette	INFO	Stopped listening on port 59610
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":726,"columnNumber":26,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26|
+  - prototype Object
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.error: ({details:{id:"301b5e58-eec9-4f1e-2f97-09abedfef627", last_modified:1723136665642, bucket:"main", collection:"top-sites", host:"firefox.settings.services.mozilla.com"}})
+1730255481521	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.hn9WhjAdY61i"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730255481929	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730255482047	Marionette	INFO	Listening on port 60069
+1730255482072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730255517601	Marionette	INFO	Stopped listening on port 60069
+Dynamically enable window occlusion 1
+1730255529970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.9gaNGS1uxddb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730255530380	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730255530507	Marionette	INFO	Listening on port 60321
+1730255530534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730255565649	Marionette	INFO	Stopped listening on port 60321
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/partitioning-exempt-urls getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730255726164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.tdAWId7kwLFp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730255726652	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730255726774	Marionette	INFO	Listening on port 60795
+1730255726799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730255761246	Marionette	INFO	Stopped listening on port 60795
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/partitioning-exempt-urls getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730256188172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.f5LBm9qiAo35"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730256188611	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730256188730	Marionette	INFO	Listening on port 61888
+1730256188755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730256223323	Marionette	INFO	Stopped listening on port 61888
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":22,"lineNumber":1088,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20|
+  - prototype Object
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/translations-wasm sync interrupted by shutdown
+console.warn: services.settings: main/search-config-overrides-v2 sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/devtools-news getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730256587969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.z9G2Nr21nIq7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730256588425	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730256588545	Marionette	INFO	Listening on port 62668
+1730256588570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730256623113	Marionette	INFO	Stopped listening on port 62668
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/partitioning-exempt-urls getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730256967821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.rkwQpz0trJ73"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730256968234	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730256968367	Marionette	INFO	Listening on port 63481
+1730256968394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730256996611	Marionette	INFO	Stopped listening on port 63481
+Dynamically enable window occlusion 1
+1730257221936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--kiosk-printing" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.dOYvWLm99Nsc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730257222369	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-kiosk-printing"
+1730257222485	Marionette	INFO	Listening on port 64053
+1730257222511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+1730257263467	Marionette	INFO	Stopped listening on port 64053
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1730257315029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.6LxU4E7xqFMR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730257315434	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730257315559	Marionette	INFO	Listening on port 64438
+1730257315587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730257343776	Marionette	INFO	Stopped listening on port 64438
+Dynamically enable window occlusion 1
+1730257401860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.9wBd9q8ObSjL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730257402267	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730257402393	Marionette	INFO	Listening on port 64718
+1730257402417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730257430656	Marionette	INFO	Stopped listening on port 64718
+Dynamically enable window occlusion 1
+1730257809426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.WkNyk4o9tQL3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730257809952	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730257810118	Marionette	INFO	Listening on port 65530
+1730257810543	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730257849587	Marionette	INFO	Stopped listening on port 65530
+Dynamically enable window occlusion 1
+JavaScript warning: http://airnavx.hnatechnic.com/airnavx/scripts/vendor-206b11e3bd.js, line 110: Script terminated by timeout at:
+animation@http://airnavx.hnatechnic.com/airnavx/scripts/vendor-206b11e3bd.js:110:20922
+
+1730258123038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.oZi0RTKZZT1W"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258123472	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258123609	Marionette	INFO	Listening on port 50056
+1730258123639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730258158451	Marionette	INFO	Stopped listening on port 50056
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":726,"columnNumber":26,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26|
+  - prototype Object
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.error: ({details:{id:"92c52502-9661-6d8b-9389-f2732f6f5caf", last_modified:1710333238310, bucket:"main", collection:"search-config-overrides-v2", host:"firefox.settings.services.mozilla.com"}})
+1730258397401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.JaU1NPKMslMl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258397817	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258397931	Marionette	INFO	Listening on port 50932
+1730258397956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730258433430	Marionette	INFO	Stopped listening on port 50932
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  main/doh-providers Signature failed  [Exception... "<no message>"  nsresult: "0x8046001e (<unknown>)"  location: "JS frame :: resource://gre/modules/ServiceRequest.sys.mjs :: open :: line 133"  data: no]
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_importChanges","sourceId":22,"lineNumber":1088,"columnNumber":20,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\n_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|_importChanges@resource://services-settings/RemoteSettingsClient.sys.mjs:1088:20|
+  - prototype Object
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/websites-with-shared-credential-backends getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730258666947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.h9NeSP5CuUj6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258667404	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258667523	Marionette	INFO	Listening on port 51500
+1730258667548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730258705439	Marionette	INFO	Stopped listening on port 51500
+Dynamically enable window occlusion 1
+1730258806526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.GcSravyRTkV2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258806970	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258807089	Marionette	INFO	Listening on port 51866
+1730258807114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730258843179	Marionette	INFO	Stopped listening on port 51866
+Dynamically enable window occlusion 1
+1730258865501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.IYNLtUjK7LRy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258865913	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258866044	Marionette	INFO	Listening on port 52118
+1730258866073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730258902970	Marionette	INFO	Stopped listening on port 52118
+Dynamically enable window occlusion 1
+1730258930891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.ktQ3CNAw5rai"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258931350	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258931468	Marionette	INFO	Listening on port 52381
+1730258931494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730258968872	Marionette	INFO	Stopped listening on port 52381
+Dynamically enable window occlusion 1
+1730258980666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.SiTCbm02LF8Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730258981074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730258981186	Marionette	INFO	Listening on port 52611
+1730258981210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730259018326	Marionette	INFO	Stopped listening on port 52611
+Dynamically enable window occlusion 1
+1730259043311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.PvwhbJzCIitk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730259043709	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730259043827	Marionette	INFO	Listening on port 52841
+1730259043853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730259080575	Marionette	INFO	Stopped listening on port 52841
+Dynamically enable window occlusion 1
+1730259087168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.BHVNjCAqOII7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730259087607	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730259087731	Marionette	INFO	Listening on port 53060
+1730259087759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730259124546	Marionette	INFO	Stopped listening on port 53060
+Dynamically enable window occlusion 1
+1730259449572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.VFv7eAfNJKeq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730259450012	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730259450135	Marionette	INFO	Listening on port 53892
+1730259450161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730259488203	Marionette	INFO	Stopped listening on port 53892
+Dynamically enable window occlusion 1
+1730259561459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.L3kwcLXriP1I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730259561881	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730259562003	Marionette	INFO	Listening on port 54229
+1730259562028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730259599765	Marionette	INFO	Stopped listening on port 54229
+Dynamically enable window occlusion 1
+1730259618899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.RzFoB4PBh1hp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730259619341	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730259619466	Marionette	INFO	Listening on port 54460
+1730259619490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730259656662	Marionette	INFO	Stopped listening on port 54460
+Dynamically enable window occlusion 1
+1730261028505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.jzdGtQsOGjJc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730261028974	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730261029090	Marionette	INFO	Listening on port 56012
+1730261029114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730261062194	Marionette	INFO	Stopped listening on port 56012
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:916:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:821:38
+
+console.error: (new Error("IndexedDB: main/search-telemetry getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1730264326620	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.Clv3MRHeNlaQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730264327177	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730264327316	Marionette	INFO	Listening on port 54652
+1730264327782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730264362013	Marionette	INFO	Stopped listening on port 54652
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 133
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":25,"lineNumber":133,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":24,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":24,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"_validateCollectionSignature","sourceId":22,"lineNumber":1009,"columnNumber":47,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"maybeSync","sourceId":22,"lineNumber":726,"columnNumber":26,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:133:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\n_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47\nmaybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:133:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.sys.mjs:1009:47|maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:726:26|
+  - prototype Object
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.error: ({details:{id:"92c52502-9661-6d8b-9389-f2732f6f5caf", last_modified:1710333238310, bucket:"main", collection:"search-config-overrides-v2", host:"firefox.settings.services.mozilla.com"}})
+1730266623729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.lKQkbEt020kV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730266624235	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730266624402	Marionette	INFO	Listening on port 53879
+1730266624432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730266663375	Marionette	INFO	Stopped listening on port 53879
+Dynamically enable window occlusion 1
+1730266739245	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.YaFdpNVB8o6a"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730266739666	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730266739794	Marionette	INFO	Listening on port 54208
+1730266739821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730266778508	Marionette	INFO	Stopped listening on port 54208
+Dynamically enable window occlusion 1
+1730269108771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.WBNlxOKLUS0i"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730269109269	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730269109393	Marionette	INFO	Listening on port 55335
+1730269109422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730269148404	Marionette	INFO	Stopped listening on port 55335
+Dynamically enable window occlusion 1
+1730269535242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.XfBeJniRTOZp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730269535698	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730269535818	Marionette	INFO	Listening on port 56272
+1730269535842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730269574763	Marionette	INFO	Stopped listening on port 56272
+Dynamically enable window occlusion 1
+1730269724515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.RgXY0Wlhx1EH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730269724953	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730269725078	Marionette	INFO	Listening on port 56876
+1730269725105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730269763977	Marionette	INFO	Stopped listening on port 56876
+Dynamically enable window occlusion 1
+1730269771112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.qi6LiGtzJO6y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730269771579	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730269771700	Marionette	INFO	Listening on port 57107
+1730269771726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730269810780	Marionette	INFO	Stopped listening on port 57107
+Dynamically enable window occlusion 1
+1730269857210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.fDZtBfSZKt9F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730269857688	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730269857810	Marionette	INFO	Listening on port 57385
+1730269857835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730269896607	Marionette	INFO	Stopped listening on port 57385
+Dynamically enable window occlusion 1
+1730270223092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.68xKv0u5ZqTJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270223566	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270223688	Marionette	INFO	Listening on port 58540
+1730270223713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730270262687	Marionette	INFO	Stopped listening on port 58540
+Dynamically enable window occlusion 1
+1730270422641	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.X7tjbYGrjIOj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270423061	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270423180	Marionette	INFO	Listening on port 59053
+1730270423204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730270462071	Marionette	INFO	Stopped listening on port 59053
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730270563265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.SkjyGFvV6Url"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270563755	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270563882	Marionette	INFO	Listening on port 59446
+1730270563907	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730270602936	Marionette	INFO	Stopped listening on port 59446
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730270681599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.O1utWHHkboe5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270682112	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270682249	Marionette	INFO	Listening on port 59798
+1730270682275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730270720269	Marionette	INFO	Stopped listening on port 59798
+Dynamically enable window occlusion 1
+1730270821385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.F2c1tbqW3Tc9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270821818	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270821929	Marionette	INFO	Listening on port 60165
+1730270821955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730270861969	Marionette	INFO	Stopped listening on port 60165
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1730270897452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.U63KfxtiUijY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270897883	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270898000	Marionette	INFO	Listening on port 60447
+1730270898025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730270937687	Marionette	INFO	Stopped listening on port 60447
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730270970386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.2QI8OUrEx6Mr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730270970795	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730270970915	Marionette	INFO	Listening on port 60732
+1730270970940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271009841	Marionette	INFO	Stopped listening on port 60732
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271125316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.tTS7uOcAp8x3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271125726	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271125845	Marionette	INFO	Listening on port 61177
+1730271125870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271166874	Marionette	INFO	Stopped listening on port 61177
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271176804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.y8fJfNLUZY9F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271177251	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271177370	Marionette	INFO	Listening on port 61409
+1730271177395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271218746	Marionette	INFO	Stopped listening on port 61409
+Dynamically enable window occlusion 1
+1730271227039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.DWyemM4lCZuq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271227526	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271227648	Marionette	INFO	Listening on port 61640
+1730271227674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271268337	Marionette	INFO	Stopped listening on port 61640
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271297946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.KvWlUG4I3c1A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271298385	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271298508	Marionette	INFO	Listening on port 61897
+1730271298532	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271339909	Marionette	INFO	Stopped listening on port 61897
+Dynamically enable window occlusion 1
+1730271361221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.NWzNqUfiWS9D"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271361674	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271361801	Marionette	INFO	Listening on port 62140
+1730271361824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271402657	Marionette	INFO	Stopped listening on port 62140
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271419712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.dmgfxGRfBcY6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271420194	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271420313	Marionette	INFO	Listening on port 62406
+1730271420342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+IPDL protocol Error: Received an invalid file descriptor
+console.error: ({})
+1730271458773	Marionette	INFO	Stopped listening on port 62406
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1730271473373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.bj5aJbw3wnBO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271473667	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271473791	Marionette	INFO	Listening on port 62634
+1730271473971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730271515147	Marionette	INFO	Stopped listening on port 62634
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271594180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.V7cO0eDD7C8N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271594481	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271594601	Marionette	INFO	Listening on port 63000
+1730271594792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730271635599	Marionette	INFO	Stopped listening on port 63000
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271756216	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.q3TidtL2DLDf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271756538	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271756660	Marionette	INFO	Listening on port 63426
+1730271756849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730271798545	Marionette	INFO	Stopped listening on port 63426
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730271915357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.KHZJu6BBTgq0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730271915789	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730271915923	Marionette	INFO	Listening on port 63862
+1730271915971	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730271956942	Marionette	INFO	Stopped listening on port 63862
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730272061202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.CKPFOvYPEVnT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272061655	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272061822	Marionette	INFO	Listening on port 64245
+1730272061848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730272087172	Marionette	INFO	Stopped listening on port 64245
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1730272095130	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.sjPgqE0KeIZr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272095556	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272095684	Marionette	INFO	Listening on port 64444
+1730272095708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+IPDL protocol Error: Received an invalid file descriptor
+console.error: ({})
+1730272134950	Marionette	INFO	Stopped listening on port 64444
+Dynamically enable window occlusion 1
+1730272186434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.v8fR3FZKHHDo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272186885	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272187009	Marionette	INFO	Listening on port 64772
+1730272187034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730272228196	Marionette	INFO	Stopped listening on port 64772
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730272364999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.WyVI3XWuoIPy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272365426	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272365543	Marionette	INFO	Listening on port 65207
+1730272365570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730272406564	Marionette	INFO	Stopped listening on port 65207
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730272422065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.lreqYnhxJOmt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272422570	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272422699	Marionette	INFO	Listening on port 65438
+1730272422725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730272463715	Marionette	INFO	Stopped listening on port 65438
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730272476584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.o6n9uM5KJCfF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272477022	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272477153	Marionette	INFO	Listening on port 49281
+1730272477178	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730272518126	Marionette	INFO	Stopped listening on port 49281
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730272581144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.4kXUctykOlqC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272581574	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272581696	Marionette	INFO	Listening on port 49847
+1730272581722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730272625343	Marionette	INFO	Stopped listening on port 49847
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730272961780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.d8iji1OlQ7xs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730272962188	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730272962312	Marionette	INFO	Listening on port 50719
+1730272962338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730273003298	Marionette	INFO	Stopped listening on port 50719
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730273124011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.PuPItbswaNWp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273124454	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273124577	Marionette	INFO	Listening on port 51120
+1730273124603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730273166258	Marionette	INFO	Stopped listening on port 51120
+Dynamically enable window occlusion 1
+1730273230939	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.s5GABdweBnGr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273231410	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273231536	Marionette	INFO	Listening on port 51498
+1730273231561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+IPDL protocol Error: Received an invalid file descriptor
+console.error: ({})
+1730273274791	Marionette	INFO	Stopped listening on port 51498
+Dynamically enable window occlusion 1
+1730273320189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.eVctvauSetrO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273320614	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273320732	Marionette	INFO	Listening on port 51790
+1730273320763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730273363870	Marionette	INFO	Stopped listening on port 51790
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730273575176	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.7uARdcJhNnUQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273575613	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273575738	Marionette	INFO	Listening on port 52369
+1730273575764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730273617917	Marionette	INFO	Stopped listening on port 52369
+Dynamically enable window occlusion 1
+1730273631002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.wARFuOR6HRyA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273631429	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273631556	Marionette	INFO	Listening on port 52631
+1730273631585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730273673855	Marionette	INFO	Stopped listening on port 52631
+Dynamically enable window occlusion 1
+1730273722183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.oILkqJiiDsdV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273722636	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273722760	Marionette	INFO	Listening on port 52932
+1730273722786	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730273765286	Marionette	INFO	Stopped listening on port 52932
+Dynamically enable window occlusion 1
+1730273955160	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.RiM5F6h8jH16"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730273955592	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730273955712	Marionette	INFO	Listening on port 53589
+1730273955738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730273998064	Marionette	INFO	Stopped listening on port 53589
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730274065017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.KiJQ94FvPy9R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730274065530	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730274065654	Marionette	INFO	Listening on port 53952
+1730274065679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730274124455	Marionette	INFO	Stopped listening on port 53952
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730274318265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.Z9QajR0gHae5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730274318704	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730274318828	Marionette	INFO	Listening on port 54525
+1730274318854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730274360583	Marionette	INFO	Stopped listening on port 54525
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730274430747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.nNhygeIKkVp0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730274431223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730274431343	Marionette	INFO	Listening on port 54850
+1730274431369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730274472660	Marionette	INFO	Stopped listening on port 54850
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730274850655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.vuD3pnXAsB5A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730274851121	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730274851245	Marionette	INFO	Listening on port 55725
+1730274851271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730274899213	Marionette	INFO	Stopped listening on port 55725
+Dynamically enable window occlusion 1
+1730275156502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.Ix3WVlnMyHTB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730275156938	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730275157066	Marionette	INFO	Listening on port 56395
+1730275157092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730275204955	Marionette	INFO	Stopped listening on port 56395
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730275403124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.EDReD2KppZIX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730275403591	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730275403718	Marionette	INFO	Listening on port 57572
+1730275403751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+1730275450198	Marionette	INFO	Stopped listening on port 57572
+Dynamically enable window occlusion 1
+IPDL protocol Error: Received an invalid file descriptor
+1730276508147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.GP7prRnWTsfS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730276508569	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730276508690	Marionette	INFO	Listening on port 60794
+1730276508715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730276554636	Marionette	INFO	Stopped listening on port 60794
+Dynamically enable window occlusion 1
+1730276572459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.Qe6MiEkGZHKK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730276572897	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730276573021	Marionette	INFO	Listening on port 61067
+1730276573048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730276620806	Marionette	INFO	Stopped listening on port 61067
+Dynamically enable window occlusion 1
+1730276689020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.rCHRPCrn1ack"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730276689539	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730276689664	Marionette	INFO	Listening on port 61435
+1730276690118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730276735520	Marionette	INFO	Stopped listening on port 61435
+Dynamically enable window occlusion 1
+1730276749424	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.Tj1kIN7YYyqv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730276749918	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730276750038	Marionette	INFO	Listening on port 61720
+1730276750066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730276796466	Marionette	INFO	Stopped listening on port 61720
+Dynamically enable window occlusion 1
+1730276853029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.NglP7bIkEIkf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730276853486	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730276853612	Marionette	INFO	Listening on port 62105
+1730276853639	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730276901822	Marionette	INFO	Stopped listening on port 62105
+Dynamically enable window occlusion 1
+1730277063071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.7YArFujmYX6W"
+1730277081925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.0IlGLxyWb44n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730277082461	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730277082588	Marionette	INFO	Listening on port 62711
+1730277083036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730277128794	Marionette	INFO	Stopped listening on port 62711
+Dynamically enable window occlusion 1
+1730277188306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.cS23eeIHJwEF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730277188807	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730277188934	Marionette	INFO	Listening on port 63053
+1730277188961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: chrome://browser/content/preferences/moreFromMozilla.js, line 83: TypeError: Region.home is null
+1730277230781	Marionette	INFO	Stopped listening on port 63053
+Dynamically enable window occlusion 1
+1730277321437	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\liu51\\AppData\\Local\\Temp\\rust_mozprofile.fzj94bbElOWj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1730277321979	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-foreground"
+1730277322249	Marionette	INFO	Listening on port 63626
+1730277322283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://airnavx.hnatechnic.com."
+JavaScript error: resource:///actors/InteractionsChild.sys.mjs, line 81: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1730277363749	Marionette	INFO	Stopped listening on port 63626
+Dynamically enable window occlusion 1
