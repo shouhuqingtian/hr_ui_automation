@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
 # 设置 Firefox 驱动
 service = Service(r"C:\Users\liu51\Documents\PycharmProjects\web-ui-main\driver\windows\geckodriver.exe")  # 替换为你的 geckodriver 路径
@@ -46,8 +47,11 @@ try:
             # 将当前节点添加到上一级的数据结构中
             current_level_data.append(new_data)
 
-            # 尝试展开当前项
+            # 定位到扩展按钮并滚动到视图中
             expand_button = element.find_element(By.XPATH, ".//md-icon[contains(@class, 'ng-scope')]")
+            # 滚动到元素位置
+            driver.execute_script("arguments[0].scrollIntoView();", expand_button)
+            time.sleep(0.5)
             expand_button.click()
             time.sleep(1)
 

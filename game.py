@@ -2,7 +2,7 @@
 # @Time    : 2024/9/4
 # @Author  : Bin
 # @Software: PyCharm
-# @File    : test_game.py
+# @File    : game.py
 
 import pygame
 import random
